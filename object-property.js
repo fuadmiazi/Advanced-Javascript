@@ -17,4 +17,5 @@ const names = students.map( s=> s.name);
 const ids = students.map(s => s.id);
 const bigger = students.filter(s => s.id>1600000000);
 const biggerOne = students.find( s => s.id>1600000000);
+
 console.log(biggerOne);
